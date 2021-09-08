@@ -9,10 +9,9 @@ namespace Discovery_MVC.Controllers
     public class StudentController : Controller
     {
         // GET: Student
-        public string Index()
+        public ActionResult Index()
         {
-            return "This this index action method of the student controller"; 
-            //return View();
+            return View();
         }
     }
 }
